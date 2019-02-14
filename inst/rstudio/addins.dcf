@@ -7,3 +7,13 @@ Name: Insert >
 Description: Insert > at the cursor position
 Binding: InsertGeq
 Interactive: false
+
+Name: Insert %<>%
+Description: Insert > at the cursor position
+Binding: InsertCompound
+Interactive: false
+
+Name: Insert %$%
+Description: Insert > at the cursor position
+Binding: InsertExposition
+Interactive: false

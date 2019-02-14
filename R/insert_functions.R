@@ -12,3 +12,19 @@ InsertGeq <- function(){
   rstudioapi::insertText(" > ")
 }
 
+#'Insert the magrittr compound assignment pipe-operator
+#'
+#'@export
+InsertCompound <- function(){
+  rstudioapi::insertText(" %<>% ")
+}
+
+#'Insert the magrittr exposition pipe-operator
+#'
+#'@export
+InsertExposition <- function(){
+  rstudioapi::insertText(" %$% ")
+}
+
+
+
