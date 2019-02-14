@@ -1,0 +1,9 @@
+Name: Insert <
+Description: Inserts < at the cursor position.
+Binding: InsertLeq
+Interactive: false
+
+Name: Insert >
+Description: Insert > at the cursor position
+Binding: InsertGeq
+Interactive: false
