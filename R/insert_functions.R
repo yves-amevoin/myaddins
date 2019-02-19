@@ -26,5 +26,11 @@ InsertExposition <- function(){
   rstudioapi::insertText(" %$% ")
 }
 
+#'Insert the filter empty column and return back function
+#'@export
+InsertFiltering <- function(){
+  rstudioapi::insertText( " filter_empty_columns() ")
+}
+
 
 

@@ -9,11 +9,16 @@ Binding: InsertGeq
 Interactive: false
 
 Name: Insert %<>%
-Description: Insert > at the cursor position
+Description: Insert  %<>%  at the cursor position
 Binding: InsertCompound
 Interactive: false
 
 Name: Insert %$%
-Description: Insert > at the cursor position
+Description: Insert %$% at the cursor position
+Binding: InsertExposition
+Interactive: false
+
+Name: Filter empty columns
+Description: Insert 'filter_empty_columns()' at the cursor position
 Binding: InsertExposition
 Interactive: false
