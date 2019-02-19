@@ -19,4 +19,9 @@ Filtering on empty columns
 \examples{
 tracking_vector <- c(NA, 0)
 filter_empty_columns(tracking_vector)
+data(mtcars)
+mtcars$newempty <- NA
+filter_empty_columns(mtcars)
+mtcars$another_new <- sample(c(NA, ""), nrow(mtcars), replace = TRUE)
+filter_empty_columns(mtcars)
 }

@@ -18,7 +18,7 @@ Description: Insert %$% at the cursor position
 Binding: InsertExposition
 Interactive: false
 
-Name: Filter empty columns
+Name: Insert Filter empty columns
 Description: Insert 'filter_empty_columns()' at the cursor position
-Binding: InsertExposition
+Binding: InsertFiltering
 Interactive: false
