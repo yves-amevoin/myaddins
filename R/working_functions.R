@@ -38,7 +38,7 @@ fec <- function(.data){
 #'
 #'@param .character A character vector, colnames of data to be imported
 #'@return A character vector, but with my correction specifications
-#'
+#'@export
 cnr <- function(.character){
 
   #changing the character to lower scale
