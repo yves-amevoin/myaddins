@@ -19,6 +19,11 @@ Binding: InsertExposition
 Interactive: false
 
 Name: Insert Filter empty columns
-Description: Insert 'filter_empty_columns()' at the cursor position
+Description: Insert 'myaddins::fec()' at the cursor position
 Binding: InsertFiltering
+Interactive: false
+
+Name: Insert custom name repair
+Description: Insert 'myaddins::cnr()' at the cursor position
+Binding: InsertCustomName
 Interactive: false
