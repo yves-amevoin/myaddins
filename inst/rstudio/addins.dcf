@@ -25,5 +25,5 @@ Interactive: false
 
 Name: Insert custom name repair
 Description: Insert 'myaddins::cnr()' at the cursor position
-Binding: InsertCustomName
+Binding: InsertCustomNames
 Interactive: false
